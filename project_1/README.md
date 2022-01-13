@@ -122,7 +122,7 @@ A possible explanation for observed trends: These inverse correlations between p
 
 - Moderate inverse correlation (-0.53) between 2019 normalized exam scores and poverty rate; lower normalized exam scores tend to mean higher poverty rate at that given state. Poverty is defined as not having enough income to meet basic needs, such as housing, food, clothing, and healthcare. Logically, it makes sense for a state with a large percentile of population in poverty to perform worst in national exams as parents spent less on enrichment classes for their children. Additionally, parents lack the adequate skill to guide their children in proper career planning which results in a vicious cycle when these children start a family of their own. The lack of proper teaching materials, lack of a standardized test system for international use creates a gap between learning achievement and what is required by society ([*source5*](https://www.grin.com/document/384366)).
 
-![plot](./charts/heatmap.png)
+![plot](./charts/Heatmap.png)
 
 - Moderate direct correlation (0.36) is observed between the graduation rate of economically disadvantaged high school students VS graduation rate of homeless students enrolled.
 
@@ -134,7 +134,7 @@ We have seen a moderate direct correlation (Point 6) between ACGR of economicall
 
 - Comparing the subject test scores for both SAT and ACT exams, it is observed that students tend to do worst in math for both ACT and SAT exams relative to other subjects. Aside from math, students who took the ACT exam did worst for English subjects.
 
-![plot](./charts/Subjects_Score.png)
+![plot](./charts/subjects_score.png)
 
 ---
 ## Conclusion and Recommendations
