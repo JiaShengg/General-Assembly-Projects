@@ -134,7 +134,7 @@ We have seen a moderate direct correlation (Point 6) between ACGR of economicall
 
 - Comparing the subject test scores for both SAT and ACT exams, it is observed that students tend to do worst in math for both ACT and SAT exams relative to other subjects. Aside from math, students who took the ACT exam did worst for English subjects.
 
-![plot](./charts/subjects_score.png)
+![plot](./charts/individual_subject_scores.png)
 
 ---
 ## Conclusion and Recommendations
