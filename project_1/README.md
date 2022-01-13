@@ -87,6 +87,7 @@ Following Blitzstein & Pfister’s workflow ([*source9*](https://github.com/cs10
 |**act_reading**|*float*| ACT_XX | Mean score for ACT Reading in each State on Year XX |
 |**act_science**|*float*| ACT_XX | Mean score for ACT Science in each State on Year XX |
 |**act_composite**|*float*| ACT_XX | Mean score for ACT Composite in each State on Year XX |
+|**graduatation_rate(2018-2019)**|*float*| economical_summary(2018-2019) | Average high school graduation rate in each State for the Year 2018-2019 |
 |**2_years_avg_proverty_rate**|*float*| economic_summary(2018-2019) | Average poverty rate in each State for the Year 2018-2019 |
 |**students_disabilities**|*float*| economic_summary(2018-2019) | **ACGR for high school students with disabilities/1/ for the Year 2018-2019 |
 |**economically_disadvantaged**|*float*| economic_summary(2018-2019) | ACGR for high school students who are economically disadvantaged/2/ for the Year 2018-2019 |
@@ -127,6 +128,8 @@ A possible explanation for observed trends: These inverse correlations between p
 
 - Moderate direct correlation (0.55) is observed between the graduation rate of economically disadvantaged high school students VS graduation rate of students with disabilities for the year 2018-2019.
 
+- The graduation rate of high school students were 85.24% for the year of 2018-2019, majority of the states have economically disadvantaged students graduation rate lower than this (Even 75% quartile have only 81.9% graduation rate, which is ~4% lower than the overall high school students).
+
 We have seen a moderate direct correlation (Point 6) between ACGR of economically disadvantaged students VS ACGR of homeless students enrolled and students with disabilities (Point 7), these are important factors to consider funding strategies for the different states.
 
 - Comparing the subject test scores for both SAT and ACT exams, it is observed that students tend to do worst in math for both ACT and SAT exams relative to other subjects. Aside from math, students who took the ACT exam did worst for English subjects.
@@ -138,7 +141,7 @@ We have seen a moderate direct correlation (Point 6) between ACGR of economicall
 With these correlations observed, we have identified 4 socioeconomic poorer states that could benefit from financial/ resource funding from the US Department of Education to improve their participation and scoring of national exams.
 
 ![plot](./charts/PovertyVS_Scores.jpg)
-![plot](./charts/PovertyVS_ACGRjpg.jpg)
+![plot](./charts/PovertyVS_ACGR.jpg)
 
 - New Mexico ranked 3rd highest in poverty in the US with 16% (2019) of the people living in poverty. Additionally, both the normalized test result (est 1.20) and ACGR of economically disadvantaged students (est 70%) are below the 25% quartile (74.8%). Unfortunately, New Mexico's public schools are ranked the worst in the U.S., with the highest dropout rates of any state. Although the dropout rate has improved over the years, it still lags behind the overall US rate by more than 5 percentage points (according to 2021 data) ([*source6*](https://stacker.com/stories/1925/states-where-high-schoolers-are-least-likely-graduate)).
 

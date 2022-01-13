@@ -1,52 +1,52 @@
-state,2_years_avg_proverty_rate,students_disabilities,economically_disadvantaged,homeless enrolled
-Alabama,14.4,69.6,87.4,81.0
-Alaska,11.7,60.0,74.7,56.0
-Arizona,11.4,69.0,73.5,57.0
-Arkansas,15.0,82.6,84.8,76.0
-California,11.0,67.7,81.1,70.0
-Colorado,9.2,59.2,70.9,55.6
-Connecticut,9.3,67.8,80.4,66.0
-Delaware,6.9,73.0,82.0,73.0
-District of Columbia,13.6,51.0,58.6,49.0
-Florida,12.6,81.0,83.2,74.3
-Georgia,13.5,62.9,77.2,63.9
-Hawaii,8.8,63.0,80.7,63.0
-Idaho,9.3,56.0,72.5,57.0
-Illinois,9.8,69.9,78.3,66.5
-Indiana,10.8,71.4,82.7,77.0
-Iowa,9.2,76.1,85.2,75.0
-Kansas,8.5,78.4,80.2,66.0
-Kentucky,14.6,75.5,87.8,16.0
-Louisiana,18.4,64.7,74.4,66.0
-Maine,11.0,73.0,78.4,62.0
-Maryland,7.5,63.5,77.7,65.0
-Massachusetts,8.1,73.9,78.5,61.0
-Michigan,10.3,57.8,70.8,58.4
-Minnesota,6.8,63.0,71.1,49.0
-Mississippi,19.4,42.2,82.2,70.0
-Missouri,10.9,76.7,82.6,76.0
-Montana,10.0,78.0,77.6,71.0
-Nebraska,9.6,69.0,81.4,60.0
-Nevada,11.7,67.2,80.8,86.0
-New Hampshire,4.9,72.0,77.2,64.0
-New Jersey,7.3,79.2,84.0,75.0
-New Mexico,16.0,64.7,70.0,52.0
-New York,11.8,58.8,76.4,59.3
-North Carolina,12.9,69.8,81.8,69.5
-North Dakota,8.9,73.0,77.0,61.0
-Ohio,12.1,48.0,71.0,54.0
-Oklahoma,12.1,79.1,78.8,72.0
-Oregon,8.9,63.4,74.4,55.4
-Pennsylvania,10.2,70.7,79.9,70.0
-Rhode Island,9.0,64.0,76.7,65.0
-South Carolina,13.9,54.4,84.3,67.0
-South Dakota,10.6,72.0,75.0,59.0
-Tennessee,12.5,73.9,84.4,78.0
-Texas,12.4,77.9,87.2,79.8
-Utah,7.1,72.4,77.3,79.8
-Vermont,9.2,71.0,76.0,68.0
-Virginia,9.3,62.9,79.6,61.0
-Washington,7.8,62.2,72.3,55.8
-West Virginia,14.9,78.7,80.0,78.0
-Wisconsin,8.5,69.8,80.5,68.0
-Wyoming,9.3,59.0,71.9,65.0
+state,2_years_avg_proverty_rate,graduatation_rate(2018-2019),students_disabilities,economically_disadvantaged,homeless enrolled
+Alabama,14.4,91.7,69.6,87.4,81.0
+Alaska,11.7,80.4,60.0,74.7,56.0
+Arizona,11.4,77.8,69.0,73.5,57.0
+Arkansas,15.0,87.6,82.6,84.8,76.0
+California,11.0,84.5,67.7,81.1,70.0
+Colorado,9.2,81.1,59.2,70.9,55.6
+Connecticut,9.3,88.5,67.8,80.4,66.0
+Delaware,6.9,89.0,73.0,82.0,73.0
+District of Columbia,13.6,68.9,51.0,58.6,49.0
+Florida,12.6,87.2,81.0,83.2,74.3
+Georgia,13.5,82.0,62.9,77.2,63.9
+Hawaii,8.8,85.2,63.0,80.7,63.0
+Idaho,9.3,80.8,56.0,72.5,57.0
+Illinois,9.8,86.2,69.9,78.3,66.5
+Indiana,10.8,87.2,71.4,82.7,77.0
+Iowa,9.2,91.6,76.1,85.2,75.0
+Kansas,8.5,87.2,78.4,80.2,66.0
+Kentucky,14.6,90.6,75.5,87.8,16.0
+Louisiana,18.4,80.1,64.7,74.4,66.0
+Maine,11.0,87.4,73.0,78.4,62.0
+Maryland,7.5,86.9,63.5,77.7,65.0
+Massachusetts,8.1,88.0,73.9,78.5,61.0
+Michigan,10.3,81.4,57.8,70.8,58.4
+Minnesota,6.8,83.7,63.0,71.1,49.0
+Mississippi,19.4,85.0,42.2,82.2,70.0
+Missouri,10.9,89.7,76.7,82.6,76.0
+Montana,10.0,86.6,78.0,77.6,71.0
+Nebraska,9.6,88.4,69.0,81.4,60.0
+Nevada,11.7,84.1,67.2,80.8,86.0
+New Hampshire,4.9,88.4,72.0,77.2,64.0
+New Jersey,7.3,90.6,79.2,84.0,75.0
+New Mexico,16.0,75.1,64.7,70.0,52.0
+New York,11.8,82.8,58.8,76.4,59.3
+North Carolina,12.9,86.5,69.8,81.8,69.5
+North Dakota,8.9,88.3,73.0,77.0,61.0
+Ohio,12.1,82.0,48.0,71.0,54.0
+Oklahoma,12.1,84.9,79.1,78.8,72.0
+Oregon,8.9,80.0,63.4,74.4,55.4
+Pennsylvania,10.2,86.5,70.7,79.9,70.0
+Rhode Island,9.0,83.9,64.0,76.7,65.0
+South Carolina,13.9,81.1,54.4,84.3,67.0
+South Dakota,10.6,84.1,72.0,75.0,59.0
+Tennessee,12.5,90.5,73.9,84.4,78.0
+Texas,12.4,90.0,77.9,87.2,79.8
+Utah,7.1,87.4,72.4,77.3,79.8
+Vermont,9.2,84.5,71.0,76.0,68.0
+Virginia,9.3,87.5,62.9,79.6,61.0
+Washington,7.8,81.1,62.2,72.3,55.8
+West Virginia,14.9,91.3,78.7,80.0,78.0
+Wisconsin,8.5,90.1,69.8,80.5,68.0
+Wyoming,9.3,82.1,59.0,71.9,65.0
