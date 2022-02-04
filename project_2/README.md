@@ -201,7 +201,7 @@ are at least 75 percent of the interquartile range of the sale prices. Finding p
 - Use dimension reduction algorithms such as Principle Component Analysis (PCA) to take care of multi collinear features instead.
 - Utilize other ML methods such as gradient boosting to check for improvement of performance.
 - Considering reducing the number of columns (original 17) in nominal 'Exterior 1' feature by studying the correlation it has with the house sale and converting them to ordinal feature instead.
-- Check for outliers among the 40 selected features for the final model.
+- Check for outliers among the 52 selected features for the final model.
 
 ---
 ## Citation and Sources
