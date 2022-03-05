@@ -6,9 +6,7 @@
  - [Datasets](#Datasets)
  - [Data Dictionary](#Data-Dictionary)
  - [Significant Findings](#Significant-Findings)
- - [Funding Recommendations](#Funding-Recommendations)
- - [Funding Strategies](#Funding-Strategies)
- - [Conclusion](#Conclusion)
+ - [Conclusion and Recommendations](#Conclusion-and-Recommendations)
  - [Citation and Sources](#Citation-and-Sources)
  ---
 
@@ -16,7 +14,7 @@
 As advisers to the US Department of Education, we are tasked to analyze the relative influences of socioeconomic status on SAT and ACT scores in each state and make recommendations for appropriate funding measures to ensure that all states have equal educational chances. We will approach this analysis by identifying yearly trends of SAT/ ACT participation and scores from 2017 to 2019, and later study the effects of how US socioeconomic status impacts the performance in these national exams.
 
 ---
-## Executive Summary </br></br>
+## Executive Summary 
 
 **BACKGROUND INFO**
 
