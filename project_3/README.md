@@ -32,6 +32,7 @@ As such, moving forward, some recommendations to further improve the model as fo
 - Perform gridsearch for all 7 classification models
 
 ---
+
 ## Methodology
 Following Blitzstein & Pfister’s workflow ([*source3*](https://github.com/cs109/2015/blob/master/Lectures/01-Introduction.pdf)), a 5 steps framework was implemented to conduct this analysis. These 5 steps are:
 
@@ -135,6 +136,7 @@ Following Blitzstein & Pfister’s workflow ([*source3*](https://github.com/cs10
     ![plot](./charts/unigram_summary_bar_plot.png)
 
 ---
+
 ## Conclusion & Recommendations
 **Going back to our problem statement...**
 
@@ -158,6 +160,7 @@ Following Blitzstein & Pfister’s workflow ([*source3*](https://github.com/cs10
 - Expand STOPWORDS library to include most frequently misclassified words
 - Perform Gridsearch on all 7 classification models
 ---
+
 ## Citations and Sources
 The sources used in this analysis:
 - Source1: https://towardsdatascience.com/explain-your-model-with-the-shap-values-bc36aac4de3d
