@@ -158,6 +158,6 @@ Following Blitzstein & Pfister’s workflow ([*source3*](https://github.com/cs10
 - Expand STOPWORDS library to include most frequently misclassified words
 - Perform Gridsearch on all 7 classification models
 ---
-## Citation and Sources
+## Citations and Sources
 The sources used in this analysis:
 - Source1: https://towardsdatascience.com/explain-your-model-with-the-shap-values-bc36aac4de3d
