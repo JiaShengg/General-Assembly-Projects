@@ -61,7 +61,7 @@ Following Blitzstein & Pfister’s workflow ([*source3*](https://github.com/cs10
 - Present findings to a non-technical audience and provide recommendations
 
 
-![plot](./charts/workflow.png)
+- ![plot](./charts/workflow.png)
 
 ---
 ## Datasets
@@ -89,35 +89,35 @@ Following Blitzstein & Pfister’s workflow ([*source3*](https://github.com/cs10
    - Remove stopwords
 - Feature engineering
    - Created 2 features, namely "word_count" and "length count" to visualize the distribution of post lengths and word counts
-![plot](./charts/distribution_plot.png)
+- ![plot](./charts/distribution_plot.png)
    - The distribution plots are right-skewed and show a fair amount of out liers, however we did not remove them as it may impact model performance.
 - Explore most frequent words with Count Vectorization and TfidfVectorizer for both topics
 - Although the top 15 terms for each topic are mainly similar in both Count Vectorizer and TFID techniques, words like 'im' and'really' appear often in both subreddits, potentially lowering the performance of our model. As a result, hyperparameter tuning of parameters (ngram range, max features, max df, min df, and so on) is required at a later stage.
 
 #### Modeling
 - Base Model
+- ![plot](./charts/Base_Model.png)
   - When compared to genuine relationship queries, unrelated questions have slightly more postings (50.8%), hence it is crucial to stratify during train_test_split. Although this can be considered the null model, with a baseline accuracy of 50.8 percent in identifying non-related enquiries,  we have instead created the null model using the Count Vectorizer and MultinomialNB technique.
-    ![plot](./charts/Base_Model.png)
   - With the accuracy, precision, and F1 score higher for our training dataset as compared to the testing dataset, it is observed there may be some overfitting issue.
 - Going back a step, why were precision and F1 score chosen as the criteria to determine model performance?
   - In the classification of Reddit topics, it is okay if any unrelated questions remain undetected (false negative), but we do not want to miss any critical relationship inquiries because it is classified as spam (false positive). False Positives should be kept to a minimum in this case. Precision is more important than recollection in this situation.
   - With that in mind, we utilized the F1 score (weighted average of Precision and Recall) as our metric to account for recall score during modeling.
 - Evaluating Other Models Performance without GridSearchCV
-![plot](./charts/models_summary.png)
+- ![plot](./charts/models_summary.png)
    - Based on training metric-score and testing metric-scores (Precision, F1, and Accuracy), all models show signs of overfitting with the exception of the GradientBoostingClassifier model.
    - The top 4 models based on the chosen metrics are GradientBoostingClassifier, RandomForestClassifier, MultinomialNB and LogisticRegression
 - Hyperparameters Tuning
-![plot](./charts/GSCV.png)
+- ![plot](./charts/GSCV.png)
     - Both the Logistic and GradientBoostingClassifier models show equal performance when it comes to training and testing gridsearch metric scores. We will use the logistic regression model with countvectorizer as our final model in this study because it is the simplest/easier model for the audience to understand.
 - Visualizing ROC Curve
     - We have plotted ROC curves for Simpler Models i.e. Logistic Regression and MultinomialNB models
-    ![plot](./charts/roc_curve.png)
+    - ![plot](./charts/roc_curve.png)
     - The area under the curve (AUC) for LogisticRegression > AUC for MultinomialNB, suggests that the LogisticRegression model is better suited for this classification study.
     - Recall earlier, one of our main goals for this study is to minimize the false positive rate (optimizing the precision score), Logistic Regression has evidently less false positive rate compared to the MultinomialNB model.
 
 #### Evaluating Final Model
 - Compared to Base Model
-![plot](./charts/final_model.png)
+- ![plot](./charts/final_model.png)
     - All 3 metrics (Accuracy,Precision and F1 scores) for our final model built with Logistic Regression improved after hyperparameters tuning.
     - The base Model Accuracy for test score was 0.9147, improved to 0.9616 with our final model
     - The base Model Precision for test score was 0.9449, improved to 0.9555 with our final model
@@ -125,7 +125,7 @@ Following Blitzstein & Pfister’s workflow ([*source3*](https://github.com/cs10
     - However, some overfitting is still observed between the training and test datasets
 - Model Interpretation
     - We used a density scatter plot of SHAP values (source1) for each feature to determine how much impact each feature has on the model output for the classification of 2 subreddits. The total of the SHAP value magnitudes across all samples is used to order features.
-    ![plot](./charts/unigram_summary_plot.png)
+    - ![plot](./charts/unigram_summary_plot.png)
 - The Summary Plot demonstrates the following information:
     - 1) Feature importance: Variables are ranked in descending order.
     - 2) Impact: The horizontal location shows whether the effect of that value is associated with a positive or negative impact.
@@ -133,7 +133,7 @@ Following Blitzstein & Pfister’s workflow ([*source3*](https://github.com/cs10
     - From both the summary plots, we can deduce that the top feature importance words contribute to the negative class #0 (genuine questions). This result is expected since the top feature importance words are mostly related to relationships which we have classified as a negative class earlier on (#0).
 - Summary Bar Plot
     - The Summary Bar plots the most significant variables in descending order. The top variables contribute more to the model than the bottom ones and thus have high predictive power.
-    ![plot](./charts/unigram_summary_bar_plot.png)
+    - ![plot](./charts/unigram_summary_bar_plot.png)
 
 ---
 
@@ -151,7 +151,7 @@ Following Blitzstein & Pfister’s workflow ([*source3*](https://github.com/cs10
     - With Tri-gram in our count vectorizer, the top 5 contributor words are ['long distance relationship','feel like im','feel like good','dont know start','long story short'].
 
 - We have also identified the top 15 terms that appear most frequently in misclassified posts with our model. We could potentially include these words as 'STOPWORDS' to improve our model's performance
-![plot](./charts/misclassified_post.png)
+- ![plot](./charts/misclassified_post.png)
 
 **Recommendations**
 - Use the latest classification modeling technique such as catboost to check for improvement of performance
