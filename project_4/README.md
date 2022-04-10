@@ -45,6 +45,7 @@ Moving forward, recommendation to improve the model as follows:
     |   |____ combined_train_df.csv
     |   |____ cleaned_spray.csv    
     |   |____ cleaned_weather.csv
+    |   |____ kaggle_submission.csv
     |__ |__ raw
     |   |____ train.csv
     |   |____ test.csv
@@ -88,9 +89,9 @@ Moving forward, recommendation to improve the model as follows:
 ## Conclusion & Recommendations
 **Findings from our model:**
 - Using Logistic Regression as our final model, we achieved an ROC_AUC of 0.9855 and sensitivity score of 0.9416, with the following confusion matrix:
-- ![plot](./charts/final_model.png)
+![plot](./charts/final_model.png)
 - From both the summary plots, it is observed the top features are mostly related to weather parameters. More WNV are present if humidity and weather temperature are high. Interestingly, the opposite is true for windspeed; meaning to say there are fewer incidences of WNV when there is a high windspeed.
-- ![plot](./charts/summary_plot.png)
+![plot](./charts/summary_plot.png)
 - We also discovered that WNV is more likely to occur during specific weeks of the year, and that spraying efforts should be concentrated during these weeks.
 - Our model also discovered that location is not a major predictor of WNV detection, implying that mosquitoes could breed anywhere with favorable weather/environmental conditions.
 - Particular mosquito breeds (pipens/restuans species) are more susceptible to WNV infection.
