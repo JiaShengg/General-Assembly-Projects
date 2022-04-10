@@ -40,18 +40,18 @@ Moving forward, recommendation to improve the model as follows:
     |   |__ Project4-Part1(EDA).ipynb   
     |   |__ Project4-Part2(Modeling).ipynb     
     |__ datasets
-    |__ |__ cleaned
-    |   |____ combined_test_df.csv
-    |   |____ combined_train_df.csv
-    |   |____ cleaned_spray.csv    
-    |   |____ cleaned_weather.csv
-    |   |____ kaggle_submission.csv
-    |__ |__ raw
-    |   |____ train.csv
-    |   |____ test.csv
-    |   |____ spray.csv    
-    |   |____ weather.csv
-    |   |____ mapdata_copyright_openstreetmap_contributors.txt
+    |____ cleaned
+    |    |____ combined_test_df.csv
+    |    |____ combined_train_df.csv
+    |    |____ cleaned_spray.csv    
+    |    |____ cleaned_weather.csv
+    |    |____ kaggle_submission.csv
+    |____ raw
+    |    |____ train.csv
+    |    |____ test.csv
+    |    |____ spray.csv    
+    |    |____ weather.csv
+    |    |____ mapdata_copyright_openstreetmap_contributors.txt
     |__ charts
     |   |__ final_model.png
     |   |__ summary_plot.png
