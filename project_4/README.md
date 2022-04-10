@@ -23,7 +23,7 @@ The mosquito-borne zoonotic illness West Nile virus (WNV) was first discovered i
 
 While WNV is not particularly virulent, with only around 1 in every 150 people infected developing West Nile fever and its symptoms, it is a severe and sometimes fatal disease (CDC, 2009). There is no vaccine available to protect against WNV at this time.
 
-A well-executed data-driven strategy can generate detailed insights. In this study, we will attempt to develop an accurate and reliable machine-learning model using classification modeling techniques to aid in resource allocations of where and when pesticides should be applied around the city to maximize pesticide effectiveness at the lowest cost.
+A well-executed data-driven strategy can generate detailed insights. In this study, we will attempt to develop an accurate and reliable machine-learning model using classification modeling techniques to improve resource allocation and effectively prevent the spread of this potentially deadly infection.
 
 Six classification models were developed for this binary classification project: Logistic Regression, Random Forest, Decision Tree, K-Nearest Neighbors, Support Vector Machines and Gradient Boosting with sensitivity and AUC score used to determine success.
 
