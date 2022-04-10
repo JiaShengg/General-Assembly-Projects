@@ -1,4 +1,4 @@
-# Project 4: West Nile Virus Classification (Part 1 EDA)
+# Project 4: West Nile Virus Classification
 ## Content
 
 - [Problem Statement](#Problem-Statement)
