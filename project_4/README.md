@@ -15,7 +15,7 @@ The Chicago Department of Public Health (CDPH) has set up a surveillance and con
 
 - Sensitivity: Refers to the true positive rate and summarizes how well the positive class (WnvPresnet) is predicted, particularly useful metric for imabalance classification dataset
 
-- AUC ROC score: The Area Under the Curve (AUC) - ROC curve is a performance statistic for classification issues at various threshold levels. AUC represents the degree or measure of separability, whereas ROC is a probability curve. It indicates how well the model can distinguish between classes. The AUC indicates how well the model predicts 0 classes as 0 and 1 courses as 1. The higher the AUC, the better the model predicts 0 classes as 0 and 1 classes as 1.
+- AUC ROC score: The Area Under the Curve (AUC) - ROC curve is a performance statistic for classification issues at various threshold levels. AUC represents the degree or measure of separability, whereas ROC is a probability curve. It indicates how well the model can distinguish between classes. The AUC indicates how well the model predicts the different classes. The higher the AUC, the better the model predicts the negative and positive classes.
 
 ---
 ## Executive Summary
