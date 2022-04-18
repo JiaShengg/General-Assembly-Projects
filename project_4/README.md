@@ -36,6 +36,11 @@ Moving forward, recommendation to improve the model as follows:
 
 ## Folder Organisation
 ---
+    |__ charts
+    |   |__ final_model.png
+    |   |__ summary_plot.png
+    |   |__ workflow.png
+    |   |__ chicago_wnv_cases.png
     |__ code
     |   |__ Project4-Part1(EDA).ipynb   
     |   |__ Project4-Part2(Modeling).ipynb     
@@ -52,12 +57,12 @@ Moving forward, recommendation to improve the model as follows:
     |    |____ spray.csv    
     |    |____ weather.csv
     |    |____ mapdata_copyright_openstreetmap_contributors.txt
-    |__ charts
-    |   |__ final_model.png
-    |   |__ summary_plot.png
-    |   |__ workflow.png
+    |__ resume
+    |   |__ Kwok Wei Hao's Resume.pdf   
+    |   |__ Ng Jia Sheng's Resume.pdf
     |__ slide
-    |   |__ group_presentation.ppt
+    |   |__ Project 4 presentation.ppt
+    |__ planning_documentation.xlsx
     |__ README.md
 
 ---
