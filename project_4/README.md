@@ -57,12 +57,6 @@ Moving forward, recommendation to improve the model as follows:
     |    |____ spray.csv    
     |    |____ weather.csv
     |    |____ mapdata_copyright_openstreetmap_contributors.txt
-    |__ resume
-    |   |__ Kwok Wei Hao's Resume.pdf   
-    |   |__ Ng Jia Sheng's Resume.pdf
-    |__ slide
-    |   |__ Project 4 presentation.ppt
-    |__ planning_documentation.xlsx
     |__ README.md
 
 ---
