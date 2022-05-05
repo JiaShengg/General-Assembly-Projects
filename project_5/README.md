@@ -2,7 +2,7 @@
 ## Content
 
 - [Problem Statement](#Problem-Statement)
-- [Executive Summary](#Executive-Summary)
+- [Background Information](#Background-Information)
 - [Folder Organisation](#Folder-Organisation)
 - [System Setup](#System-Setup)
 - [Datasets](#Datasets)
@@ -18,7 +18,7 @@ The datasets contain 2,380 hourly energy meter readings from 1,448 buildings in 
 
 ---
 
-## Executive Summary
+## Background Information
 In the early days of artificial intelligence research for buildings, the Great Energy Predictor I and II contests paved the way for data-driven building energy prediction innovation. Many new ideas, tools, and data sources have emerged in the more over two decades after those early challenges, resulting in significantly more extensive datasets, which were the spark for the competition's revival. The goal of ASHRAE Great Energy Predictor III is to find the most effective data-driven building energy prediction techniques. The main technical goal was to figure out which model types, machine learning methods, and workflows worked best for this particular application of long-term meter prediction.
 
 In this project, we will approach this energy forecasting problem as a regression problem, and develop Decision Tree Ensemble models and deep learning GRUs models for each meter type that strikes the right balance in the bias-variance trade off.
