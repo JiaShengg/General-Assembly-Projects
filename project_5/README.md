@@ -14,7 +14,7 @@
 ## Problem Statement
 The Great Energy Predictor III from ASHRAE aims to develop counterfactual models for predicting energy across four energy types (electricity, chilledwater, steam, hotwater) based on historic usage rates and observed weather. Energy savings can then calculated by computing the new energy consumption after retrofit to the old building's modeled values. Findings of this study will be used to improve estimations of these energy-saving initiatives, allowing large-scale investors and financial institutions to be more willing to invest in building efficiencies.
 
-The datasets contain 2,380 hourly energy meter readings from 1,448 buildings in 16 distinct locations throughout the world, with a total of 20 million observations (2016) in the train dataset and 41 million in the test dataset (2017-2019). The evaluation metric for this study will be Root Mean Squared Logarithmic Error (RMSE), which can tell us about the standard deviation or spread of the residuals.
+The datasets contain 2,380 hourly energy meter readings from 1,448 buildings in 16 distinct locations throughout the world, with a total of 20 million observations (2016) in the train dataset and 41 million in the test dataset (2017-2019). The evaluation metric for this study will be Root Mean Squared Logarithmic Error (RMSLE), which can tell us about the standard deviation or spread of the residuals.
 
 ---
 
@@ -36,7 +36,9 @@ Beyond technical considerations, the competition's primary goal was to bring the
     |   |__feature-importance.png
     |   |__heatmap.png
     |   |__log_transformed_target.png
+    |   |__meter_type_readings.png
     |   |__overall_readings.png
+    |   |__site_meter_readings.png
     |   |__weather_meter_readings.png
     |__ code
     |   |__ Project5-Part1(EDA).ipynb   
@@ -111,6 +113,8 @@ Weather data from a meteorological station as close as possible to the site.
 
 - It is not surprising for education facility to consume the most energy since building 1099 is such facility (plot below). When classified by site, site 13 spends the most energy (because to building 1099), and when sorted by meter type, meter 2 consumes the most energy (also because of building 1099).
 ![plot](./charts/facilities_meter_readings.png)
+![plot](./charts/site_meter_readings.png)
+![plot](./charts/meter_type_readings.png)
 
 - From 2016 to 2018, we continuously find increased usage throughout the summer (June-Sept) and winter (December-March) seasons based on the Average Air-Temperature VS Meter Reading. The fact that heaters are typically used when temperatures are cold and air conditioners are used when temperatures are hot helps explain this tendency. Both of these factors contribute to increased energy use.
 ![plot](./charts/weather_meter_readings.png)
