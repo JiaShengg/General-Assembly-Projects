@@ -25,9 +25,6 @@ In this project, we will approach this energy forecasting problem as a regressio
 
 Beyond technical considerations, the competition's primary goal was to bring the data science and building science communities closer together through the interchange of thoughts, terminologies, and approaches, according to the planning team. Building energy analysts often only employed the most basic machine learning techniques, while machine learning professionals knew little about buildings. The intention was for this competition to serve as a catalyst for post-competition exchange ([*source1*](https://www.ashrae.org/news/ashraejournal/searching-for-the-best-data-driven-energy-prediction-techniques)).
 
-([*LINK*](https://nbviewer.org/github/Jiasheng30/General-Assembly-Projects/blob/master/project_5/code/Project5-Part1%28EDA%29.ipynb))
-
-
 ---
 
 ## Folder Organisation
@@ -49,7 +46,7 @@ Beyond technical considerations, the competition's primary goal was to bring the
     |__ README.md
     |__ requirements.txt
     
-PS: If you're having trouble viewing the EDA jupyter notebook (Title "Project5-Part1(EDA).ipynb") on Github, try this ([*LINK*(https://nbviewer.org/github/Jiasheng30/General-Assembly-Projects/blob/master/project_5/code/Project5-Part1%28EDA%29.ipynb)).
+PS: If you're having trouble viewing the EDA jupyter notebook (Title "Project5-Part1(EDA).ipynb") on Github, try this ([*LINK*](https://nbviewer.org/github/Jiasheng30/General-Assembly-Projects/blob/master/project_5/code/Project5-Part1%28EDA%29.ipynb)).
 
 ---
 
