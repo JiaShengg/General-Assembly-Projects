@@ -101,7 +101,7 @@ Weather data from a meteorological station as close as possible to the site.
 
 ---
 
-## Significant Findings and Recommendations
+## Significant Findings & Recommendations
 
 **General Findings from EDA**
 - There are nearly the same number of normalized observations in the testing dataset VS training dataset, indicating that the variance for the various features is well-represented.
