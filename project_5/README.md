@@ -47,7 +47,7 @@ Beyond technical considerations, the competition's primary goal was to bring the
     |__ README.md
     |__ requirements.txt
     
-PS: If you're having trouble viewing the EDA jupyter notebook (Title "Project5-Part1(EDA).ipynb") on Github, try this ([*LINK*](https://nbviewer.org/github/Jiasheng30/General-Assembly-Projects/blob/master/project 5/code/Project5-Part1 percent 28EDA percent 29.ipynb)).
+PS: If you're having trouble viewing the EDA jupyter notebook (Title "Project5-Part1(EDA).ipynb") on Github, try this ([*LINK*(https://nbviewer.org/github/Jiasheng30/General-Assembly-Projects/blob/master/project 5/code/Project5-Part1 percent 28EDA percent 29.ipynb)).
 ---
 
 ## System Setup
