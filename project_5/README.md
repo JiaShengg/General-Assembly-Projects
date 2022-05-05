@@ -132,6 +132,7 @@ Weather data from a meteorological station as close as possible to the site.
   - Additional weather parameters like feels like temperature, wind chill, and heat index have a favorable impact on the model and are acknowledged as key elements in our LOFO analysis.
 
 **Recommendations**
+
 - Developing one model for each building (1449 models in total)
 - Developing one model for each site (16 models in total)
 - One hot encode building_id and site_id before modeling (computationally expensive)
