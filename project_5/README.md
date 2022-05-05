@@ -105,10 +105,9 @@ Weather data from a meteorological station as close as possible to the site.
 
 **General Findings from EDA**
 - There are nearly the same number of normalized observations in the testing dataset VS training dataset, indicating that the variance for the various features is well-represented.
-![plot](./charts/building1099.png)
 
 - Building 1099 is a clear anomaly (refer to plot below). Given its GFA, the building is unlikely to consume so much energy. It's possible that the meters aren't working properly or that the meter readings are cumulative.
-![plot](./charts/summary_plot.png)
+![plot](./charts/building1099.png)
 
 - Education and facilities consume the most energy (plot below). When classified by site, site 13 spends the most energy (because to building 1099), and when sorted by meter type, meter 2 consumes the most energy (also because of building 1099).
 ![plot](./charts/facilities_meter_readings.png)
