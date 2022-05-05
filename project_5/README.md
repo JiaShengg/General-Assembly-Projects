@@ -44,13 +44,10 @@ Beyond technical considerations, the competition's primary goal was to bring the
     |   |__ Project5-Part2(Cleaning).ipynb
     |   |__ Project5-Part3A(Modeling).ipynb
     |   |__ Project5-Part3B(Modeling&Ensembling).ipynb     
-    |__ datasets.zip
-    |   |__ kaggle_submission(lgbm).csv
-    |   |__ kaggle_submission(gru).csv   
-    |   |__ ensembled_model.csv
     |__ README.md
     |__ requirements.txt
-
+    
+PS: If you're having trouble viewing the EDA jupyter notebook (Title "Project5-Part1(EDA).ipynb") on Github, try this ([*LINK*](https://nbviewer.org/github/Jiasheng30/General-Assembly-Projects/blob/master/project 5/code/Project5-Part1 percent 28EDA percent 29.ipynb)).
 ---
 
 ## System Setup
