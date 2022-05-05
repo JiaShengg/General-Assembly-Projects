@@ -115,7 +115,7 @@ Weather data from a meteorological station as close as possible to the site.
 - From 2016 to 2018, we continuously find increased usage throughout the summer (June-Sept) and winter (December-March) seasons based on the Average Air-Temperature VS Meter Reading. The fact that heaters are typically used when temperatures are cold and air conditioners are used when temperatures are hot helps explain this tendency. Both of these factors contribute to increased energy use.
 ![plot](./charts/weather_meter_readings.png)
 
-- Using LOFO analysis, the top features (plot below) in all four meter kinds are square feet, building id, primary use, and building counts per site.
+- Using LOFO analysis, the top features (plot below) for our models are square feet, building id, primary use, and building counts per site.
 ![plot](./charts/feature-importance.png)
 
 **Significant Findings**:
