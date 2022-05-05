@@ -113,9 +113,7 @@ Weather data from a meteorological station as close as possible to the site.
 
 - It is not surprising for education facility to consume the most energy since building 1099 is such facility (plot below). When classified by site, site 13 spends the most energy (because to building 1099), and when sorted by meter type, meter 2 consumes the most energy (also because of building 1099).
 ![plot](./charts/facilities_meter_readings.png)
-
 ![plot](./charts/site_meter_readings.png)
-
 ![plot](./charts/meter_type_readings.png)
 
 - From 2016 to 2018, we continuously find increased usage throughout the summer (June-Sept) and winter (December-March) seasons based on the Average Air-Temperature VS Meter Reading. The fact that heaters are typically used when temperatures are cold and air conditioners are used when temperatures are hot helps explain this tendency. Both of these factors contribute to increased energy use.
