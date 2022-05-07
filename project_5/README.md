@@ -50,7 +50,7 @@ Beyond technical considerations, the competition's primary goal was to bring the
     
 PS: If you're having trouble viewing the EDA jupyter notebook (Title "Project5-Part1(EDA).ipynb") on Github, try this ([*LINK*](https://nbviewer.org/github/Jiasheng30/General-Assembly-Projects/blob/master/project_5/code/Project5-Part1%20%28EDA%29.ipynb)).
 
-Datasets available at this ([*LINK*](https://drive.google.com/drive/folders/1tR2j9VFb1QEncYgenRzx-wmk5mkxGYfe?usp=sharing )) in Google Drive. 
+Datasets available at this [*LINK*](https://drive.google.com/drive/folders/1tR2j9VFb1QEncYgenRzx-wmk5mkxGYfe?usp=sharing ) in Google Drive. 
 
 ---
 
