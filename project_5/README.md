@@ -1,4 +1,4 @@
-# Final Capstone: ASHRAE - Great Energy Predictor III (LGBM AND RNN  Models)
+# Final Capstone: ASHRAE - Great Energy Predictor III (Light Gradient Boosted Machine (LGBM) AND Gated Recurrent Units (GRUs) Ensemble Models)
 ## Content
 
 - [Problem Statement](#Problem-Statement)
