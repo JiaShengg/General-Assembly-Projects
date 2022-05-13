@@ -143,6 +143,7 @@ Weather data from a meteorological station as close as possible to the site.
 - Developing one model for each building (1449 models in total)
 - Developing one model for each site (16 models in total)
 - One hot encode building_id and site_id before modeling (computationally expensive)
+- Experiment with lagged weather features and how it affects the model's success metrics
 - Experiment relations of existing features and target variable (prediciting kwh/ft2 instead)
 ---
 
