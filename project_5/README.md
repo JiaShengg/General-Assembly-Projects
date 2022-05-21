@@ -128,7 +128,7 @@ Weather data from a meteorological station as close as possible to the site.
 
 **Significant Findings**:
 
-- In the setting of a large dataset, decision tree ensemble models such as Light Gradient Boosting Trees are an effective and efficient model type for time-series hourly energy regression. Complex models, such as deep learning GRU, are less effective when used alone (especially with missing time sequences), but they can be combined with other models to produce better predictions with smaller generalization errors.
+- In the setting of a large dataset, decision tree ensemble models such as Light Gradient Boosting Trees are an effective and efficient model type for time-series hourly energy regression. Complex models, such as deep learning GRU, are less effective when used alone in this project (especially with missing time sequences), but they can be combined with other models to produce better predictions with smaller generalization errors.
 
 - In this project, we used ensemble models of Light Gradient Boost and Deep Learning GRU in our project to attain a respectable RMSLE score of 1.191 (public board) in the kaggle competition without using any leaked data. When compared to individual model scores, the kaggle score produced from ensemble models is superior.
 
