@@ -133,6 +133,33 @@ Weather data from a meteorological station as close as possible to the site.
 - In this project, we used ensemble models of Light Gradient Boost and Deep Learning GRU in our project to attain a respectable RMSLE score of 1.191 (public board) in the kaggle competition without using any leaked data. When compared to individual model scores, the kaggle score produced from ensemble models is superior.
 
 - Another important discovery was that all machine learning process steps had an effect on model accuracy, as seen in the following examples:
+  - Preprocessing
+    Missing temperature data imputation
+    •	Linear interpolation is a simple but effective way to fill in missing temperature data which improved model performance 
+    Anomaly removal
+    •	Remove long streaks of constant 0 readings
+    •	Identifying abnormal consumptions of hot water/steam and chilled meters in each building during winter and summer seasons respectively
+    •	Target variable transformation which make it closer to a normal distribution, important for linear regression to be well posed
+   - Feature Engineering
+    •	Smoothed temperature data (rolling average of 3 days), Rolling averages are useful for finding long-term trends otherwise disguised by occasional fluctuations
+    •	new weather parameters, namely the heat index, wind chill, and feels like temperatur
+   - Model Selection  
+    •	LightGBM, some advantages:
+           - Fast, distributed, high-performance gradient boosting framework based on decision tree algorithm
+           - the leaf-wise algorithm can reduce more loss than the level-wise algorithm and hence results in much better accuracy which can rarely be achieved by any of the existing boosting algorithms
+           - However, Leaf wise splits lead to increase in complexity and may lead to overfitting and it can be overcome by specifying num_leaves/ min_num data in leaf. Feature_fraction can also be set for faster training.
+    •	Gated Recurrent Units, some advantages:
+          - Faster than LSTM while still applicable for use in prediction with long term sequnces
+          - To solve the vanishing gradient issue faced by standard RNN, GRU incorporates the two gate operating mechanisms called Update gate (determining the amount of previous information that needs to pass along the next state) and Reset gate (decides whether the previous cell state is important or not.). 
+    •	Train-test split and k-fold cross-validation without shuffling the dataset
+
+    Ensembling
+    •	Group split for train data -> split by meter type
+    •	ML models ->LightGBM / GRUs
+    •	Hyperparameters tuning
+    •	Time split for CV -> determine the validation scheme 
+    •	Ensemble -> every time we train a model, we save the predictions and use a weighted average for the 
+ 
 
   - With some domain expertise in meters and simple intuition, abnormal readings for the four meters were detected and dropped
 
@@ -142,6 +169,8 @@ Weather data from a meteorological station as close as possible to the site.
 
 - Developing one model for each building (1449 models in total)
 - Developing one model for each site (16 models in total)
+- Positive/negative Spikes removal -> > very hard to predict, if left in the original data, it will focus too much on trying to predict the spikes and make the prediction more volatile
+- 1st and 2nd differentiation of temperature data, these features can make non-stationary data stationary and they add rate of change information to the model
 - One hot encode building_id and site_id before modeling (computationally expensive)
 - Experiment with lagged weather features and how it affects the model's success metrics
 - Experiment relations of existing features and target variable (prediciting kwh/ft2 instead)
