@@ -134,7 +134,7 @@ Weather data from a meteorological station as close as possible to the site.
 
 - Another important discovery was that all machine learning process steps had an effect on model accuracy, as seen in the following examples:
   - Preprocessing
-    Missing temperature data imputation
+    - Missing temperature data imputation
     •	Linear interpolation is a simple but effective way to fill in missing temperature data which improved model performance 
     Anomaly removal
     •	Remove long streaks of constant 0 readings
