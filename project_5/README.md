@@ -135,23 +135,22 @@ Weather data from a meteorological station as close as possible to the site.
 - Another important discovery was that all machine learning process steps had an effect on model accuracy, as seen in the following examples:
   - Preprocessing
     - Missing temperature data imputation
-    •	Linear interpolation is a simple but effective way to fill in missing temperature data which improved model performance 
-    Anomaly removal
-    •	Remove long streaks of constant 0 readings
-    •	Identifying abnormal consumptions of hot water/steam and chilled meters in each building during winter and summer seasons respectively
-    •	Target variable transformation which make it closer to a normal distribution, important for linear regression to be well posed
+        - Linear interpolation is a simple but effective way to fill in missing temperature data which improved model performance. 
+    - Anomaly removal
+        - Remove long streaks of constant 0 readings from electric meters.
+        - Identifying abnormal consumptions of hot water/steam and chilled meters in each building during winter and summer seasons respectively.
+        - Target variable transformation which make it closer to a normal distribution.
    - Feature Engineering
-    •	Smoothed temperature data (rolling average of 3 days), Rolling averages are useful for finding long-term trends otherwise disguised by occasional fluctuations
-    •	new weather parameters, namely the heat index, wind chill, and feels like temperatur
-   - Model Selection  
-    •	LightGBM, some advantages:
-           - Fast, distributed, high-performance gradient boosting framework based on decision tree algorithm
-           - the leaf-wise algorithm can reduce more loss than the level-wise algorithm and hence results in much better accuracy which can rarely be achieved by any of the existing boosting algorithms
-           - However, Leaf wise splits lead to increase in complexity and may lead to overfitting and it can be overcome by specifying num_leaves/ min_num data in leaf. Feature_fraction can also be set for faster training.
-    •	Gated Recurrent Units, some advantages:
-          - Faster than LSTM while still applicable for use in prediction with long term sequnces
-          - To solve the vanishing gradient issue faced by standard RNN, GRU incorporates the two gate operating mechanisms called Update gate (determining the amount of previous information that needs to pass along the next state) and Reset gate (decides whether the previous cell state is important or not.). 
-    •	Train-test split and k-fold cross-validation without shuffling the dataset
+        - Smoothed temperature data (rolling average of 3 days), rolling averages are useful for finding long-term trends otherwise disguised by occasional fluctuations.
+        - Feature engineered new weather parameters, namely the heat index, wind chill, and feels like temperature
+  - Model Selection
+    - LightGBM, some advantages:
+        - Fast, distributed, high-performance gradient boosting framework based on decision tree algorithm.
+        - Leaf-wise algorithm can reduce more loss than the level-wise algorithm and hence results in much better accuracy which can rarely be achieved by any of the existing boosting algorithms.
+        - However, Leaf wise splits lead to increase in complexity and may lead to overfitting and it can be overcome by specifying num_leaves/ min_num data in leaf. Feature_fraction can also be set for faster training.
+    - Gated Recurrent Units, some advantages:
+        - Faster training time compared to LSTM while still applicable for use in prediction with long term sequnces.
+        - To solve the vanishing gradient issue faced by standard RNN, GRU incorporates the two gate operating mechanisms called Update gate (determining the amount of previous information that needs to pass along the next state) and Reset gate (decides whether the previous cell state is important or not.). 
 
     Ensembling
     •	Group split for train data -> split by meter type
