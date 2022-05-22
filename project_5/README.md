@@ -142,8 +142,8 @@ Weather data from a meteorological station as close as possible to the site.
         - Identifying abnormal hot water/steam and chilled meter consumption in each facility during the winter and summer seasons
         - A transformation of the target variable that brings it closer to a normal distribution
   - Feature Engineering
-        - Smoothed temperature data (rolling average of 3 days), rolling averages are useful for finding long-term trends otherwise disguised by occasional fluctuations
-        - Additional weather parameters like feels like temperature, wind chill, and heat index have a favorable impact on the model and are acknowledged as key elements in our LOFO analysis
+    - Smoothed temperature data (rolling average of 3 days), rolling averages are useful for finding long-term trends otherwise disguised by occasional fluctuations
+    - Additional weather parameters like feels like temperature, wind chill, and heat index have a favorable impact on the model and are acknowledged as key elements in our LOFO analysis
   - Model Selection
     - LightGBM, some advantages:
         - Fast, distributed, high-performance gradient boosting framework based on decision tree algorithm
